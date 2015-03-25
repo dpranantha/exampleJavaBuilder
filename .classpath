@@ -4,6 +4,9 @@
 	<classpathentry kind="src" path="src/test/scala"/>
 	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry exported="true" kind="con" path="org.scala-ide.sdt.launching.SCALA_CONTAINER"/>
-	<classpathentry kind="lib" path="/Users/dpranantha/Coding/misc/lib/scalatest_2.11-2.2.4.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/dpranantha/.gradle/caches/modules-2/files-2.1/org.scalatest/scalatest_2.11/2.2.4/39d673d2eae9db03a05e573863a0af2f927d9c41/scalatest_2.11-2.2.4.jar" sourcepath="/Users/dpranantha/.gradle/caches/modules-2/files-2.1/org.scalatest/scalatest_2.11/2.2.4/f93d68a40996f84efc126e9f9e8abde49a92191f/scalatest_2.11-2.2.4-sources.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/dpranantha/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-reflect/2.11.2/1a6265829fcde7d3a522fe2c0366f2fc40727b17/scala-reflect-2.11.2.jar" sourcepath="/Users/dpranantha/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-reflect/2.11.2/84c4ff1b1d352bc3494c3cb357051dff7ac84826/scala-reflect-2.11.2-sources.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/dpranantha/.gradle/caches/modules-2/files-2.1/org.scala-lang.modules/scala-xml_2.11/1.0.2/820fbca7e524b530fdadc594c39d49a21ea0337e/scala-xml_2.11-1.0.2.jar" sourcepath="/Users/dpranantha/.gradle/caches/modules-2/files-2.1/org.scala-lang.modules/scala-xml_2.11/1.0.2/312c3557d1ca0b34820f3b3fc5404a47936ceb26/scala-xml_2.11-1.0.2-sources.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/dpranantha/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.11.2/4718c022bd5bd84705ddacec18072c351832bc20/scala-library-2.11.2.jar" sourcepath="/Users/dpranantha/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.11.2/daf0aaff6a520fdacd3486509ddcee6c8c0a1241/scala-library-2.11.2-sources.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
