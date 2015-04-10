@@ -1,47 +1,50 @@
 package builder;
 
 class NameRepository implements Container {
-   private final String names[];
-	
-   @Override
-   public Iterator getIterator() {
-      return new NameIterator();
-   }
+    private final String names[];
 
-   private class NameIterator implements Iterator {
+    @Override
+    public Iterator getIterator() {
+        return new NameIterator();
+    }
 
-      int index;
+    private class NameIterator implements Iterator {
 
-      @Override
-      public boolean hasNext() {
-      
-         if(index < names.length){
-            return true;
-         }
-         return false;
-      }
+        int index;
 
-      @Override
-      public Object next() {
-      
-         if(this.hasNext()){
-            return names[index++];
-         }
-         return null;
-      }		
-   }
-   
+        @Override
+        public boolean hasNext() {
+
+            if (index < names.length) {
+                return true;
+            }
+            return false;
+        }
+
+        @Override
+        public Object next() {
+
+            if (this.hasNext()) {
+                return names[index++];
+            }
+            return null;
+        }
+    }
+
     public static class Builder {
-		private String names[];
-		
-		public Builder names(String[] names){this.names = names; return this; }
-		
-		public NameRepository build() {
+        private String names[];
+
+        public Builder names(String[] names) {
+            this.names = names;
+            return this;
+        }
+
+        public NameRepository build() {
             return new NameRepository(this);
         }
-	}
-	
-	private NameRepository(Builder builder){
-		this.names = builder.names;
-	}
+    }
+
+    private NameRepository(Builder builder) {
+        this.names = builder.names;
+    }
 }
